@@ -8,9 +8,14 @@ For this script, I’ll use the Lumerical API (lumapi) as the primary example, a
 
 # The Orchestrator Script
 
-## The Technical Pitch: Why "Latin Hypercube Sampling" (LHS)?
+### The Technical Pitch: Why "Latin Hypercube Sampling" (LHS)?
 When pitching this to an industrial lead, mention LHS.
 
 . The Problem: A standard "Grid Sweep" (e.g., 10 wavelengths × 10 pitches) creates redundant data points where only one variable changes.
 
 . The Solution: LHS ensures that no two samples share the same value for any variable. This provides a much "richer" dataset for the Neural Network to     learn the underlying physics of the Full-Vectorial Helmholtz Equation with fewer total simulations, saving hours of license-time on expensive software.
+
+### Industrial Productization Checklist
+1. config.yaml: To allow users to change simulation ranges without touching the Python code.
+2. logger.py: To track "failed" simulations (e.g., where the mode didn't converge) so they don't corrupt the training data.
+3. A "Model Card": A document explaining the accuracy limits of the AI proxy (e.g., "Accurate within $\pm 0.001$ for $n_{eff}$ in the C-band").
