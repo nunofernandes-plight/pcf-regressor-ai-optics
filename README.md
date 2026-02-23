@@ -17,3 +17,13 @@ cd ai-optics-pcf-regressor
 ```bash
 pip install -r requirements.txt
 ```
+# 4. Configuration & Software Scripts
+requirements.txt
+
+```bash
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+matplotlib>=3.7.0
+```
