@@ -19,3 +19,8 @@ When pitching this to an industrial lead, mention LHS.
 1. config.yaml: To allow users to change simulation ranges without touching the Python code.
 2. logger.py: To track "failed" simulations (e.g., where the mode didn't converge) so they don't corrupt the training data.
 3. A "Model Card": A document explaining the accuracy limits of the AI proxy (e.g., "Accurate within $\pm 0.001$ for $n_{eff}$ in the C-band").
+
+### The "Killer Feature" for your Pitch
+Imagine telling a potential client:
+
+   "Our software doesn't just predict properties; it includes an Auto-Labeller. It detects if the predicted physics are drifting from the ground truth and automatically triggers a new high-fidelity simulation to re-train itself."
