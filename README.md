@@ -4,3 +4,12 @@
 
 ### 1. Overview
 This repository provides a machine-learning-based surrogate model for characterizing Specialty Optical Fibers. By training on high-fidelity FEM data, the engine predicts the Complex Effective Index ($n_{eff}$) and Dispersion ($D$) without the need for intensive Maxwell solvers.
+
+### 2. Installation 
+
+# Clone the repository
+git clone https://github.com/your-org/ai-optics-express.git
+cd ai-optics-express
+
+# Install dependencies
+pip install -r requirements.txt
