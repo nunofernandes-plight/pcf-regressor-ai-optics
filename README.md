@@ -8,9 +8,12 @@ This repository provides a machine-learning-based surrogate model for characteri
 ### 2. Installation 
 
 #### Clone the repository
-bash git clone https://github.com/your-org/ai-optics-express.git
-
-bash cd ai-optics-express
+```bash
+git clone https://github.com/your-org/ai-optics-express.git
+cd ai-optics-express
+```
 
 #### Install dependencies
-bash pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
