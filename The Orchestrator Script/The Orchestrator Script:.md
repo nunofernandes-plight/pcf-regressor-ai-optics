@@ -6,4 +6,4 @@ In the industry, we call this Orchestration. Instead of a researcher clicking "R
 The Strategy: Automated Data Generation Pipeline (ADGP)
 For this script, I’ll use the Lumerical API (lumapi) as the primary example, as it is the industry standard for photonics. However, the logic is identical for COMSOL (using the mph Python library).
 
-#The Orchestrator Script
+# The Orchestrator Script
