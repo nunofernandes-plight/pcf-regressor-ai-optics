@@ -27,3 +27,23 @@ scikit-learn>=1.3.0
 joblib>=1.3.0
 matplotlib>=3.7.0
 ```
+setup.py (For distribution) 
+
+```Python
+from setuptools import setup, find_packages
+
+setup(
+    name="ai-optics-express",
+    version="1.0.0",
+    packages=find_packages(),
+    install_requires=[
+        'numpy', 'pandas', 'scikit-learn', 'joblib'
+    ],
+    author="Photonics AI Team",
+    description="ML-Accelerated Specialty Fiber Design Engine",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Topic :: Scientific/Engineering :: Physics",
+    ],
+)
+```
