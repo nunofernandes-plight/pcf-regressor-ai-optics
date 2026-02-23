@@ -9,8 +9,8 @@ This repository provides a machine-learning-based surrogate model for characteri
 
 #### Clone the repository
 ```bash
-git clone https://github.com/your-org/ai-optics-express.git
-cd ai-optics-express
+git clone https://github.com/your-org/ai-optics-pcf-regressor.git
+cd ai-optics-pcf-regressor
 ```
 
 #### Install dependencies
