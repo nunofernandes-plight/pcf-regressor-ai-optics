@@ -33,7 +33,7 @@ setup.py (For distribution)
 from setuptools import setup, find_packages
 
 setup(
-    name="ai-optics-express",
+    name="ai-optics-pcf-regressor",
     version="1.0.0",
     packages=find_packages(),
     install_requires=[
